@@ -26,10 +26,10 @@ var redCurrant = {
 }
 
 var writeFruitInfo = function (fruit) {
-	document.write('<H1>' + fruit.fruitName + '</h1');
+	document.write('<h1>' + fruit.fruitName + '</h1>');
 	document.write('<dl>');
-		document.write('<dt>latinName</dt>');
-		document.write('<dt>isShrub</dt>');
+		document.write('<dt>' + fruit.latinName + '</dt>')		
+		document.write('<dt>' + fruit.isShrub + '</dt>')
 		document.write('<dd>' + fruit.energy + '</dd>')
 		document.write('<dd>' + fruit.carbs + '</dd>')
 		document.write('<dd>' + fruit.protein + '</dd>')
