@@ -1,0 +1,17 @@
+h1 {
+	font-family: 'Gill Sans', 'Futura', comic sans, sans serif;
+	color: purple;
+	margin-bottom: 0.1em;
+	padding-top: 1em;
+}
+
+dt {
+	font-family: 'Gill Sans', 'Futura', comic sans, sans serif;
+	font-weight: bold;
+}
+
+dd {
+	font-family: 'Gill Sans', 'Futura', comic sans, sans serif;
+	padding-bottom: 0.5em;
+
+}

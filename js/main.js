@@ -32,7 +32,7 @@ var writeFruitInfo = function (fruit) {
 		document.write('<dd>' + fruit.latinName + '</dd>')
 		
 		document.write('<dt>Grows on shrub</dt>')	
-		document.write('<dt>' + fruit.isShrub + '</dt>')
+		document.write('<dd>' + fruit.isShrub + '</dd>')
 
 		document.write('<dt>Energy</dt>')			
 		document.write('<dd>' + fruit.energy + '</dd>')
@@ -45,6 +45,6 @@ var writeFruitInfo = function (fruit) {
 	document.write('</dl>')
 }
 
-writeFruitInfo(blueberries);
-writeFruitInfo(grapes);
-writeFruitInfo(redCurrant);
+var allTheFruit = [blueberries, grapes, redCurrant];
+
+allTheFruit.forEach(writeFruitInfo)
