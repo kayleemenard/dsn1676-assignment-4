@@ -1,13 +1,9 @@
-// Single line comment
+var blueberries = {
+	name: 'Blueberries';
+	latinName: 'Vaccinium corybosum';
+	isShrub: true;
+};
 
-/*
-	Multiple lines are the same as css
-*/	
-
-// alert('Hello!');
-
-
-// String: some text inside quotes
 var firstName = 'Kaylee';
 console.log(firstName);
 
