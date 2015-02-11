@@ -24,3 +24,18 @@ var redCurrant = {
 	carbs: '13.8 g',
 	protein: '1.4 g',
 }
+
+var writeFruitInfo = function (fruit) {
+	document.write('<H1>' + fruit.fruitName + '</h1');
+	document.write('<dl>');
+		document.write('<dt>latinName</dt>');
+		document.write('<dt>isShrub</dt>');
+		document.write('<dd>' + fruit.energy + '</dd>')
+		document.write('<dd>' + fruit.carbs + '</dd>')
+		document.write('<dd>' + fruit.protein + '</dd>')
+	document.write('</dl>')
+}
+
+writeFruitInfo(blueberries);
+writeFruitInfo(grapes);
+writeFruitInfo(redCurrant);
