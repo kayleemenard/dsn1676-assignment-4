@@ -1,28 +1,26 @@
 var blueberries = {
-	name: 'Blueberries';
-	latinName: 'Vaccinium corybosum';
-	isShrub: true;
+	fruitName: 'Blueberries',
+	latinName: 'Vaccinium corybosum',
+	isShrub: true,
+	energy: '240 kJ',
+	carbs: '14.49 g',
+	protein: '0.74 g',
 };
 
-var firstName = 'Kaylee';
-console.log(firstName);
-
-// Number: no quotes, can be mathified
-var age = 22;
-console.log(age)
-
-// Boolean: true or false
-var isHuman = true;
-
-// Array: a container that holds multiple things
-var dinos = ['Iguanodon', 'Pteranodon', 'T-Rex'];
-console.log(dinos[1]);
-
-// Object: a variable full of other variables
-var trex = {
-	fullName: 'Tyrannosaurus Rex',
-	age: 60000000,
-	isMeatEater: true,
+var grapes = {
+	fruitName: 'Grapes',
+	latinName: 'Vitis inifera',
+	isShrub: false,
+	energy: '288 kJ',
+	carbs: '18.1 g',
+	protein: '0.72 g',
 };
 
-console.log(trex.fullName);
+var redCurrant = {
+	fruitName: 'Red Currant',
+	latinName: 'ribes rubrum',
+	isShrub: true,
+	energy: '234 kJ',
+	carbs: '13.8 g',
+	protein: '1.4 g',
+}
